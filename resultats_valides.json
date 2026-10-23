@@ -1,0 +1,187 @@
+[
+  {
+    "requete": 1,
+    "colonnes": [
+      "nombre_prets",
+      "exposition_totale_usd",
+      "exposition_npl_usd",
+      "ratio_npl_pct"
+    ],
+    "nombre_lignes": 1,
+    "apercu": [
+      {
+        "nombre_prets": 290,
+        "exposition_totale_usd": 5292002.44,
+        "exposition_npl_usd": 684331.1,
+        "ratio_npl_pct": 12.93
+      }
+    ]
+  },
+  {
+    "requete": 2,
+    "colonnes": [
+      "tranche",
+      "prets",
+      "exposition_usd"
+    ],
+    "nombre_lignes": 5,
+    "apercu": [
+      {
+        "tranche": "00.A jour",
+        "prets": 148,
+        "exposition_usd": 2752442.88
+      },
+      {
+        "tranche": "01.1-30 jours",
+        "prets": 63,
+        "exposition_usd": 1142237.24
+      },
+      {
+        "tranche": "02.31-60 jours",
+        "prets": 22,
+        "exposition_usd": 424102.18
+      },
+      {
+        "tranche": "03.61-89 jours",
+        "prets": 18,
+        "exposition_usd": 288889.04
+      },
+      {
+        "tranche": "04.90+ jours",
+        "prets": 39,
+        "exposition_usd": 684331.1
+      }
+    ]
+  },
+  {
+    "requete": 3,
+    "colonnes": [
+      "trimestre_octroi",
+      "nb_prets",
+      "encours_usd",
+      "ratio_npl_pct"
+    ],
+    "nombre_lignes": 10,
+    "apercu": [
+      {
+        "trimestre_octroi": "2024-T1",
+        "nb_prets": 25,
+        "encours_usd": 366532.46,
+        "ratio_npl_pct": 18.36
+      },
+      {
+        "trimestre_octroi": "2024-T2",
+        "nb_prets": 31,
+        "encours_usd": 595272.25,
+        "ratio_npl_pct": 18.4
+      },
+      {
+        "trimestre_octroi": "2024-T3",
+        "nb_prets": 28,
+        "encours_usd": 501024.53,
+        "ratio_npl_pct": 6.15
+      },
+      {
+        "trimestre_octroi": "2024-T4",
+        "nb_prets": 33,
+        "encours_usd": 541411.42,
+        "ratio_npl_pct": 20.86
+      },
+      {
+        "trimestre_octroi": "2025-T1",
+        "nb_prets": 31,
+        "encours_usd": 417320.22,
+        "ratio_npl_pct": 6.01
+      },
+      {
+        "trimestre_octroi": "2025-T2",
+        "nb_prets": 20,
+        "encours_usd": 467947.17,
+        "ratio_npl_pct": 14.78
+      },
+      {
+        "trimestre_octroi": "2025-T3",
+        "nb_prets": 31,
+        "encours_usd": 578114.97,
+        "ratio_npl_pct": 19.99
+      },
+      {
+        "trimestre_octroi": "2025-T4",
+        "nb_prets": 24,
+        "encours_usd": 465804.9,
+        "ratio_npl_pct": 13.76
+      }
+    ]
+  },
+  {
+    "requete": 4,
+    "colonnes": [
+      "produit",
+      "nb_prets",
+      "encours_usd",
+      "pd_moyenne_pct",
+      "perte_attendue_simplifiee_usd"
+    ],
+    "nombre_lignes": 4,
+    "apercu": [
+      {
+        "produit": "Credit equipement",
+        "nb_prets": 83,
+        "encours_usd": 1494614.31,
+        "pd_moyenne_pct": 7.2,
+        "perte_attendue_simplifiee_usd": 47188.47
+      },
+      {
+        "produit": "Credit consommation",
+        "nb_prets": 67,
+        "encours_usd": 1273129.95,
+        "pd_moyenne_pct": 7.4,
+        "perte_attendue_simplifiee_usd": 38059.6
+      },
+      {
+        "produit": "Credit PME",
+        "nb_prets": 71,
+        "encours_usd": 1264897.41,
+        "pd_moyenne_pct": 9.16,
+        "perte_attendue_simplifiee_usd": 52206.24
+      },
+      {
+        "produit": "Credit commerce",
+        "nb_prets": 69,
+        "encours_usd": 1259360.77,
+        "pd_moyenne_pct": 7.28,
+        "perte_attendue_simplifiee_usd": 45630.42
+      }
+    ]
+  },
+  {
+    "requete": 5,
+    "colonnes": [
+      "ecl_base_usd",
+      "ecl_stress_usd",
+      "variation_usd"
+    ],
+    "nombre_lignes": 1,
+    "apercu": [
+      {
+        "ecl_base_usd": 183084.74,
+        "ecl_stress_usd": 238010.17,
+        "variation_usd": 54925.42
+      }
+    ]
+  },
+  {
+    "requete": 6,
+    "colonnes": [
+      "prets_verifies",
+      "anomalies"
+    ],
+    "nombre_lignes": 1,
+    "apercu": [
+      {
+        "prets_verifies": 290,
+        "anomalies": 0
+      }
+    ]
+  }
+]
